@@ -1,0 +1,35 @@
+.attribution { 
+    font-size: 11px; text-align: center; }
+    .attribution a 
+    
+    { color: hsl(144, 13%, 8%); }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: hsl(212, 45%, 89%);
+        
+        
+    }
+.image-qr-code {
+    
+    margin-top: 200px;
+    width: 320px;
+    height: 499px;
+    background-color: white;
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    text-align: center;
+    border-radius: 15px;
+
+}
+h1 {
+    color: hsl(218, 44%, 22%);
+}
+
+p{
+   color: hsl(216, 15%, 48%) ; 
+}
