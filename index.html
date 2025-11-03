@@ -2,28 +2,33 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="./style.css">
-  
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- displays site properly based on user's device -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css"/>
   <title>Frontend Mentor | QR code component</title>
+  <style>
+  body{
+    background-color: hsl(212,45%,89%);
+    font-family: 'Outfit', sans-serif;
+  }
+  </style>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  
 </head>
-<body>
-  
-<div class="image-qr-code"> <img src="images/image-qr-code.png"> 
-<div style="font-size: 15px;"> <h1>Improve your front-end skills by building projects
-</h1>
- <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level </div>
-  </p>
-</div>
+<body class="d-flex justify-content-center align-items-center vh-100 ">
 
-  <div class="attribution">
+<div class="card shadow-lg border-0" style="width: 18rem;">
+  <img src="images/image-qr-code.png" class="card-img-top round-8 p-2" alt="">
+  <div class="card-body text-center">
+    <h5 class="card-title" style="color: hsl(218, 44%, 22%)">Improve your front-end skills by building projects</h5>
+    <p class="card-text" style ="color: hsl(216, 15%, 48%); font-size:15px;">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+  </div>
+  
+</div>
+<div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Jasmine Bailey</a>.
-  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
